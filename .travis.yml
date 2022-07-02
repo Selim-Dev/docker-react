@@ -1,8 +1,7 @@
-sudo:required
+sudo: required
 services:
   - docker
 
-  
 before_install:
   - docker build -t ali/docker-react -f Dockerfile.dev .
 
